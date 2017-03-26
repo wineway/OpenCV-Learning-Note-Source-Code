@@ -60,5 +60,5 @@ MatND histogram(Mat image4,int *channels, MatND hist, const int *histSize, const
 
     }
     flip(img, img, 0);
-  
+
     return img;}
