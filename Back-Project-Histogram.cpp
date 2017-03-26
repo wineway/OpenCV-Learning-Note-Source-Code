@@ -18,9 +18,6 @@ int main(int argc, const char * argv[]) {
     Mat img(512,256,CV_8UC3,Scalar(0));
     Mat image4(image(Rect(0,0,100,100)));
     MatND hist;
-    imshow("output", image4);
-    waitKey(0);
-
     int channels[] = {0,1,2};
     const int histSize[3] = {256,256,256};
     float rRange[] = {0,256};
