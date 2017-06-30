@@ -43,8 +43,6 @@ int main(int argc, const char * argv[]) {
     imshow("convers", histogram(dst, channels, hist, histSize, ranges));
     waitKey(0);
 
-
-    std::cout << "Hello, World!\n";
     return 0;
 }
 MatND histogram(Mat image4,int *channels, MatND hist, const int *histSize, const float **ranges){
